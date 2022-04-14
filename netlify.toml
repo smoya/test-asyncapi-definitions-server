@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/definitions/*"
+  to = "raw.githubusercontent.com/asyncapi/spec-json-schemas/master/schemas/:splat"
+  status = 200
