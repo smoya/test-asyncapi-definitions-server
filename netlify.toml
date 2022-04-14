@@ -1,4 +1,5 @@
 [[redirects]]
   from = "/definitions/*"
   to = "https://raw.githubusercontent.com/asyncapi/spec-json-schemas/master/schemas/:splat"
+  headers = {Accept = "application/octet-stream"}
   status = 200
