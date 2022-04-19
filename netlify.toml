@@ -2,3 +2,7 @@
   from = "/definitions/*"
   to = "https://raw.githubusercontent.com/asyncapi/spec-json-schemas/master/schemas/:splat"
   status = 200
+
+[[edge_functions]]
+function = "serve-definitions"
+path = "/definitions/*"
